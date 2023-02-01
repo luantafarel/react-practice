@@ -1,0 +1,31 @@
+DOM - Document object model
+MVC - Model View Controller
+Imperative Paradigm - You directly change various parts of your app according to user interactions.
+Declarative Paradigm - You declare whats the state of our app and React deals with the rendering
+One way Data Flow - The state change triggers a change into the DOM
+
+Without arrow function in onClick it will call the console log everytime it renders the page. (click 0, click 1 ... will appear in console.){}
+
+classes vs hooks, specific to react hooks are fairly new and theres no problem with classes.
+
+function test () {
+    return (<div> </div>)
+}
+
+class test extends Component {
+    render() {
+        return <div> </div>
+    }
+}
+
+Order of execution in react 
+First the constructor if its a class of course, then it mounts the render then runs ComponentDidMount.
+Compenents rerenders when the state and props are changed
+
+JSX uses JS as base, thats why we use className instead of class
+
+if you are going to modify an array, create a new One
+
+When returning a component, make sure to return one parent component 
+
+Be careful with css overlapping styling with different components 
